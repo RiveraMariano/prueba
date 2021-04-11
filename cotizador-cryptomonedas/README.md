@@ -2,7 +2,7 @@
 
 Website link [Cryptocurrency Quote](https://cotizador-cryptomonedas-mrivera.netlify.app/).
 
-## SummaryssSSS
+## Summary
 
 This is my sixth web application developed with react. I decided to start learning the javascript library because in the future when I finish my degree I would like to specialize in web development. This website uses the useState and useEffect hooks in addition to local storage to manage medical appointments, and for the hosting of the application I used the Netlify platform.
 
@@ -17,7 +17,7 @@ I used the materialize style library. The other styles are inside a style sheet 
 ### Run Locally
 
 - Clone the repository `https://github.com/RiveraMariano/react-projects.git`
-- The project is on the `cotizacion-cryptomoneda` folder
+- The project is on the `cotizador-cryptomoneda` folder
 - Open the cmd and get the project route
 - Run `npm start`
 - The project should run in the default browser :)
