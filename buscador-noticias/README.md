@@ -10,7 +10,7 @@ This is my seventh web application developed with react. I decided to start lear
 
 The application uses the hooks useState and useEffect, the first one is in charge of modifying the states of the objects where the information of the appointment is stored. The second is responsible for creating the expense and decrease the remainder of the budget.
 
-### Design
+### Design 
 
 I used the skeleton style library in conjunction with google fonts for website text. The other styles are inside a style sheet that is imported into the HTML. It is a simple design of a form and some cards to show the appointments.
 

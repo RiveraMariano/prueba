@@ -5,7 +5,7 @@ import ListadoNoticias from './components/ListadoNoticias';
 
 function App() {
 
-  // DEFINIR LA CATEGORIA Y NOTICIAS
+  // DEFINIR LA CATEGORIA Y NOTICIASS
   const [categoria, setCategoria] = useState('');
   const [noticias, setNoticias] = useState([]);
   
