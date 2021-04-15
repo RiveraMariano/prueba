@@ -4,28 +4,18 @@ Website link [Images Search Engine](https://buscador-imagenes-mrivera.netlify.ap
 
 ## Summary
 
-This is my eighth web application developed with react. I decided to start learning the javascript library because in the future when I finish my degree I would like to specialize in web development. This website uses the useState and useEffect hooks in addition to local storage to manage medical appointments, and for the hosting of the application I used the Netlify platform.
+This is project 8/10, this project has an input where a keyword is entered to search for images then the button is pressed and the images are displayed in letters where the original image can be consulted. In the footer there is the option to advance to the next page or go back to the previous one to continue consulting images. 
 
-### Functionality
+### Learning 
 
-The application uses the hooks useState and useEffect, the first one is in charge of modifying the states of the objects where the information of the appointment is stored. The second is responsible for creating the expense and decrease the remainder of the budget.
-
-### Design 
-
-I used the skeleton style library in conjunction with google fonts for website text. The other styles are inside a style sheet that is imported into the HTML. It is a simple design of a form and some cards to show the appointments.
+In the development of this project, I learned: 
+- To use an api that asks for four parameters => [API](https://pixabay.com/es/).
+- to use the bootstrap style library.
 
 ### Run Locally
 
-- Clone the repository `https://github.com/RiveraMariano/react-projects.git`
-- The project is on the `buscador-imagenes` folder
-- Open the cmd and get the project route
-- Run `npm start`
-- The project should run in the default browser :)
-
-### Tech Stack
-
-- React
-- React Hooks
-- Netlify
-- React Custom Hooks
-- API
+- Clone the repository `https://github.com/RiveraMariano/react-projects.git`.
+- The project is on the `buscador-imagenes` folder.
+- Open the cmd and get the project route.
+- Run `npm install` for the dependencies.
+- Run `npm start` (The project should run in the default browser).
