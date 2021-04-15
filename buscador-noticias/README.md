@@ -4,28 +4,18 @@ Website link [News Search Engine](https://buscador-noticias-mrivera.netlify.app/
 
 ## Summary
 
-This is my seventh web application developed with react. I decided to start learning the javascript library because in the future when I finish my degree I would like to specialize in web development. This website uses the useState and useEffect hooks in addition to local storage to manage medical appointments, and for the hosting of the application I used the Netlify platform.
+This is project 7/10, this project has a select where the category of news to be searched is chosen and when the button is pressed they are shown in small letters that have a button to redirect to the page where the official report is. (Unfortunately this api became a paid api and cannot be consulted in a project in production, however, if the project is installed and run locally, the news is shown). 
 
-### Functionality
+### Learning 
 
-The application uses the hooks useState and useEffect, the first one is in charge of modifying the states of the objects where the information of the appointment is stored. The second is responsible for creating the expense and decrease the remainder of the budget.
-
-### Design 
-
-I used the skeleton style library in conjunction with google fonts for website text. The other styles are inside a style sheet that is imported into the HTML. It is a simple design of a form and some cards to show the appointments.
+In the development of this project, I learned: 
+- To use an api that asks for one parameter => [API](https://newsapi.org/).
+- To use .module files to add styles to components.
 
 ### Run Locally
 
-- Clone the repository `https://github.com/RiveraMariano/react-projects.git`
-- The project is on the `buscador-noticias` folder
-- Open the cmd and get the project route
-- Run `npm start`
-- The project should run in the default browser :)
-
-### Tech Stack
-
-- React
-- React Hooks
-- Netlify
-- React Custom Hooks
-- API
+- Clone the repository `https://github.com/RiveraMariano/react-projects.git`.
+- The project is on the `buscador-noticias` folder.
+- Open the cmd and get the project route.
+- Run `npm install` for the dependencies.
+- Run `npm start` (The project should run in the default browser).
