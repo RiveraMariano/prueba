@@ -4,26 +4,19 @@ Website link [Budget Control](https://control-presupuesto-mrivera.netlify.app).
 
 ## Summary
 
-This is my second web application developed with react. I decided to start learning the javascript library because in the future when I finish my degree I would like to specialize in web development. This website uses the useState and useEffect hooks in addition to local storage to manage medical appointments, and for the hosting of the application I used the Netlify platform.
+This is project 2/10, this project helps you control your weekly expenses. It has a first form where the budget for the week is entered and another form where the reason for the expense and the amount of this is entered. 
 
-### Functionality
+### Learning 
 
-The application uses the hooks useState and useEffect, the first one is in charge of modifying the states of the objects where the information of the appointment is stored. The second is responsible for creating the expense and decrease the remainder of the budget.
-
-### Design
-
-I used the skeleton style library in conjunction with google fonts for website text. The other styles are inside a style sheet that is imported into the HTML. It is a simple design of a form and some cards to show the appointments.
+In the development of this project, I learned: 
+- To do conditional loading of components.
+- To create helpers.
+- To use normalize as a style library.
 
 ### Run Locally
 
-- Clone the repository `https://github.com/RiveraMariano/react-projects.git`
-- The project is on the `control-presupuesto` folder
-- Open the cmd and get the project route
-- Run `npm start`
-- The project should run in the default browser :)
-
-### Tech Stack
-
-- React
-- React Hooks
-- Netlify
+- Clone the repository `https://github.com/RiveraMariano/react-projects.git`.
+- The project is on the `control-presupuesto` folder.
+- Open the cmd and get the project route.
+- Run `npm install` for the dependencies.
+- Run `npm start` (The project should run in the default browser).
