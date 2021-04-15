@@ -4,27 +4,19 @@ Website link [Song's Lyrics](https://letras-canciones-mrivera.netlify.app/).
 
 ## Summary
 
-This is my fifth web application developed with react. I decided to start learning the javascript library because in the future when I finish my degree I would like to specialize in web development. This website uses the useState and useEffect hooks in addition to local storage to manage medical appointments, and for the hosting of the application I used the Netlify platform.
+This is project 9/10, this project has 2 inputs, the first to enter the name of an artist and the other for the name of a song, when the search button is pressed, all the lyrics of the consulted song are returned. (This project consisted of 2 api's, however, since both could not have the information of an artist or a specific song, I leave out the second api that was responsible for returning the artist information). 
 
-### Functionality
+### Learning 
 
-The application uses the hooks useState and useEffect, the first one is in charge of modifying the states of the objects where the information of the appointment is stored. The second is responsible for showing the wheater. I used an API called Open Wheather and import the information into a JSON.
-
-### Design
-
-I used the materialize style library. The other styles are inside a style sheet that is imported into the HTML. It is a simple design of a form and some cards to show the wheather.
+In the development of this project, I learned: 
+- To consult 2 api's at the same time.
+- First API => [API](https://lyricsovh.docs.apiary.io/#).
+- Second API => [API](https://www.theaudiodb.com/).
 
 ### Run Locally
 
-- Clone the repository `https://github.com/RiveraMariano/react-projects.git`
-- The project is on the `obtener-clima` folder
-- Open the cmd and get the project route
-- Run `npm start`
-- The project should run in the default browser :)
-
-### Tech Stack
-
-- React
-- React Hooks
-- Netlify
-- API
+- Clone the repository `https://github.com/RiveraMariano/react-projects.git`.
+- The project is on the `letras-canciones` folder.
+- Open the cmd and get the project route.
+- Run `npm install` for the dependencies.
+- Run `npm start` (The project should run in the default browser). 
